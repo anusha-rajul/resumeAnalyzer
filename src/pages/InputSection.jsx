@@ -55,8 +55,13 @@ const InputSection = ({ result, setResult }) => {
     }
 
     return (
-        <div className={result ? 'flex w-full' : 'min-h-screen flex w-full'}>
-            <div className={result ? `fixed bottom-4 flex flex-col md:flex-row justify-center items-center gap-4 w-full max-w-4xl left-1/2 -translate-x-1/2 bg-zinc-100 px-4 py-2 rounded-2xl` : `m-auto bg-zinc-100 rounded-full  flex flex-col md:flex-row gap-5 w-full max-w-4xl px-4 py-2  items-center`}>
+        
+
+        <div className={result ? 'flex w-full' : 'min-h-screen flex flex-col w-full justify-center items-center'}>
+            {!result && (<h1 className="font-bold text-lg mb-4">Analyze your resume</h1>)}
+
+            <div className={result ? `fixed bottom-4 flex flex-col md:flex-row justify-center items-center gap-4 w-full max-w-4xl left-1/2 -translate-x-1/2 bg-zinc-100 px-4 py-2 rounded-2xl` : `bg-zinc-100 rounded-full  flex flex-col md:flex-row gap-5 w-full max-w-4xl px-4 py-2  items-center`}>
+                
                 
                 <div className="flex-1 w-full">
                     <div className="flex gap-3">
@@ -77,7 +82,7 @@ const InputSection = ({ result, setResult }) => {
                 
             </div>
             </div>
-  
+
   )
 }
 

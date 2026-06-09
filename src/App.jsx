@@ -11,7 +11,7 @@ const App = () => {
     setResult(null)
   }
   return (
-    <div>
+    <div className="h-screen overflow-hidden">
       <ToastContainer />
       <Navbar />
       {result && <div className="pb-40"><OutputSection result={result} reset={reset} /></div>}

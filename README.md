@@ -1,16 +1,26 @@
-# React + Vite
+# Resume Analyzer
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A React app that analyzes resumes using AI and provides actionable feedback.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- Upload resume as PDF and extract text (pdfjs-dist)
+- AI-powered analysis using Groq API (LLaMA 3.1)
+- Feedback on skills and improvements
+- Clean UI with shadcn/ui components
 
-## React Compiler
+## Tech Stack
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+**Frontend:** React.js, Tailwind CSS, shadcn/ui  
+**AI:** Groq API (llama-3.1-8b-instant)  
+**PDF Parsing:** pdfjs-dist
 
-## Expanding the ESLint configuration
+## Screenshots
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+<img width="1902" height="905" alt="project5" src="https://github.com/user-attachments/assets/bbc13572-b398-45f3-a754-167699d528c5" />
+<img width="1890" height="901" alt="Screenshot 2026-06-13 170217" src="https://github.com/user-attachments/assets/9f2c01df-1e49-4bf3-9b8e-aa3da081642d" />
+
+
+## Live Demo
+
+https://resume-analyzer-sandy-phi.vercel.app/

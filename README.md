@@ -17,8 +17,9 @@ A React app that analyzes resumes using AI and provides actionable feedback.
 
 ## Screenshots
 
-<img width="1902" height="905" alt="project5" src="https://github.com/user-attachments/assets/bbc13572-b398-45f3-a754-167699d528c5" />
+
 <img width="1890" height="901" alt="Screenshot 2026-06-13 170217" src="https://github.com/user-attachments/assets/9f2c01df-1e49-4bf3-9b8e-aa3da081642d" />
+<img width="1902" height="905" alt="project5" src="https://github.com/user-attachments/assets/bbc13572-b398-45f3-a754-167699d528c5" />
 
 
 ## Live Demo
